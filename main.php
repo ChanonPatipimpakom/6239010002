@@ -149,6 +149,7 @@
                     $("#txtGpa").text(res.gpa);
                     $("#englishScore").text("Score: "+res.englishScore);
                     //$("#passCompre").text(res.passComprehensive);
+                    //สลับสี
                     if(res.passComprehensive != 1){
                         $("#passCompre").text("Not Passed");
                         $("#panel-compre").removeClass("panel panel-green");
@@ -158,7 +159,7 @@
                         $("#panel-compre").removeClass("panel panel-red");
                         $("#panel-compre").addClass("panel panel-green");
                     }
-
+                    //เกรด
                     $("#imgStudent").attr('src',"images/students/"+res.picture);
                     if(res.gpa >= 3.50){
                         $("#honor").text("Honor: First Class Honnor");
@@ -167,7 +168,7 @@
                     }else{
                         $("#honor").text("Honor: None");
                     }
-
+                    //คะแนนอังกฤษ
                     if(res.englishScore >= 840){
                         $("#englishLevel").text("C2");
                     }
