@@ -181,7 +181,7 @@
                         $("#englishLevel").text("B1");
                     }
 
-                    
+
                 },
                 complete:()=> $.LoadingOverlay('hide')
             });
@@ -192,6 +192,7 @@
             $("#englishLevel").text("??");
             $("#honor").text("Honor:");
             $("#passCompre").text("????");
+            $("#panel-compre").removeClass("panel panel-red");
             $("#panel-compre").addClass("panel panel-green");
             $("#englishScore").text("Score:");
             $("#txtGpa").text("X.XX");
