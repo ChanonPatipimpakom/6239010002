@@ -75,7 +75,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right navbar-top-links">
             <li>
-                <a href=""><i class="fa fa-user fa-fw"></i> 62xxxxxxxx: Name Lastname</a>
+                <a href=""><i class="fa fa-user fa-fw"></i> 6239010002: Chanon Patipimpakom</a>
             </li>
         </ul>
         <!-- Sidebar -->
